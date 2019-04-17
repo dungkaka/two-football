@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Footer from './views/footer/Footer';
-import Header from './views/header/Header';
 import AppRouter from './router/AppRouter';
-import Navigation from './views/navigation/Navigation';
 import { BrowserRouter as Router } from "react-router-dom";
+import Header from './global_component/header/Header';
+import Navigation from './global_component/navigation/Navigation';
+import Footer from './global_component/footer/Footer';
 
 class App extends Component {
     render() {
@@ -14,7 +14,6 @@ class App extends Component {
                     <Navigation></Navigation>
 
                     <AppRouter></AppRouter>
-
                     <Footer></Footer>
                 </div>
             </Router >
