@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './match.css';
-import {Row, Col, Affix} from 'antd';
-import News from '../../global_component/news/news';
-import MatchList from "./match_list/MatchList";
+import './home.css';
+import { Row, Col, Affix } from 'antd';
+import LiveTable from './../live_table/LiveTable';
+import News from './../../../global_component/news/news';
 
-class Match extends Component {
+class Home extends Component {
     render() {
         return (
-            <div className="match">
+            <div className="home">
                 <Row>
                     <Col span={6}>
                         <Affix>
@@ -16,14 +16,13 @@ class Match extends Component {
                     </Col>
 
                     <Col span={18}>
-                        <MatchList/>
+                        <LiveTable></LiveTable>
                     </Col>
                 </Row>
-
 
             </div>
         );
     }
 }
 
-export default Match;
+export default Home;

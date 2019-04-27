@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04b9239-f306-4dfd-a216-fe711eb8b4a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/footer/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/header/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/match/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/Match.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/navigation/Navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/navigation/navigation.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about_us/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about_us/about_us_page/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/contact/contact_page/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/contact/Example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home_page/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home_page/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/match_page/Match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/match_page/match.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,14 +27,15 @@
     <session id="-73323017">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="js" value="8" />
+          <entry key="js" value="11" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
@@ -41,35 +43,35 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="1" />
+          <entry key="ESLintLanguageService" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3" />
-          <entry key="js" value="2072" />
+          <entry key="js" value="2788" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="JavaScript" value="2072" />
+          <entry key="JavaScript" value="2788" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/AppRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -78,30 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/contact/Contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/contact/Example.js">
+        <entry file="file://$PROJECT_DIR$/src/views/contact/contact_page/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -110,10 +92,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/match/Match.js">
+        <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/home/home_page/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/match/match_page/Match.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -124,10 +124,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="115">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,9 +149,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -167,6 +165,10 @@
         <option value="$PROJECT_DIR$/src/config/API-key.js" />
         <option value="$PROJECT_DIR$/src/views/match/match_list/match-list.css" />
         <option value="$PROJECT_DIR$/src/views/match/Match.js" />
+        <option value="$PROJECT_DIR$/src/views/contact/contact_page/Contact.js" />
+        <option value="$PROJECT_DIR$/src/views/match/match_list/MatchCard.js" />
+        <option value="$PROJECT_DIR$/src/views/home/home_page/Home.js" />
+        <option value="$PROJECT_DIR$/src/views/match/match_page/Match.js" />
         <option value="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" />
       </list>
     </option>
@@ -188,10 +190,24 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="72" />
-    <option name="width" value="1808" />
-    <option name="height" value="942" />
+    <option name="x" value="661" />
+    <option name="y" value="26" />
+    <option name="width" value="1228" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +226,25 @@
               <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
               <item name="two_football" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
+              <item name="two_football" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="global_component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
+              <item name="two_football" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="global_component" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
+              <item name="two_football" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
@@ -237,17 +271,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../00_DoAn/PhotoHub" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\Code_Project\4_React\Project_WIS\two_football\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Code_Project\4_React\Project_WIS\two_football\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\contact\contact_page" />
+      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\about_us\about_us_page" />
+      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\home\home_page" />
+      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\match\match_page" />
+      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\match\match_bet" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,25 +316,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555425247865</updated>
-      <workItem from="1555425250876" duration="15044000" />
+      <workItem from="1555425250876" duration="27766000" />
+      <workItem from="1555595479683" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15044000" />
+    <option name="totallyTimeSpent" value="27883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="58" width="1446" height="753" extended-state="0" />
-    <editor active="true" />
+    <frame x="529" y="21" width="982" height="796" extended-state="0" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982257" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21904762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3451613" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -297,6 +338,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32277527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -309,48 +354,61 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/views/home/live_table/LiveTable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/contact/Example.js" />
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global_component/news/news.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/AppRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/contact/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/contact/Example.js">
+    <entry file="file://$PROJECT_DIR$/src/views/contact/contact_page/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home/live_table/LiveTable.js">
+    <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/home/home_page/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/match/match_page/Match.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/match/match_list/match-list.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/API-key.js">
@@ -360,25 +418,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/match/match_list/match-list.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/match/Match.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="115">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
