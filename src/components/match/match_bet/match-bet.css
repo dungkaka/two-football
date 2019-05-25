@@ -1,0 +1,73 @@
+.match-bet {
+    padding: 5vh 10vh;
+}
+
+.match-board {
+    background: #292a31;
+    color: white;
+    padding: 5vh;
+    border-radius: 10px;
+}
+
+
+
+.bet-board {
+    margin: 10vh 0vh 0vh 0vh;
+}
+
+.bet-fix-flex {
+    display: flex;
+}
+
+
+.bet-card {
+    margin: 2vh 0vh 0vh 0vh;
+}
+
+.bet-card-title {
+    padding: 10px 30px 10px 10px;
+    background: #ff6e3e;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    float: left;
+    text-align: center;
+}
+
+.bet-card-content {
+    padding: 10px;
+    background: white;
+    min-width: 400px;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px 0px 0px -20px;
+}
+
+.bet-card-action {
+    padding: 10px;
+    background: rgb(0, 183, 255);
+    height: auto;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    left: -10px;
+    margin: auto 0px;
+}
+
+
+.bet-input-content {
+    text-align: right;
+}
+
+.bet-input {
+    text-align: right;
+    margin: 5px 0px;
+}

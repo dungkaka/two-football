@@ -2,17 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04b9239-f306-4dfd-a216-fe711eb8b4a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/bet_status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/contact_page/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/match/match_bet/MatchBet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/match/match_bet/MatchBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/match/match_list/MatchCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Match Detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Match.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/navigation/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/news/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/news/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global_component/news/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/news/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/about_us/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about_us/about_us_page/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/contact/contact_page/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/contact/Example.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home_page/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home_page/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/match/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/match_page/Match.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/match/match.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/match_page/match.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/MatchRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about_us/about_us_page/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about_us/about_us_page/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/contact/contact_page/Contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/home_page/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home_page/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/home_page/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home_page/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/live_table/LiveTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/live_table/LiveTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/live_table/livetable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/live_table/livetable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_bet/BetCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_bet/MatchBet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_bet/MatchBoard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_bet/match-bet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/match/match_bet/match-bet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_list/MatchCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/match/match_list/MatchList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_list/match-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/match/match_list/match-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_page/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/match/match_page/Match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/match/match_page/match.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/match/match_page/match.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,40 +58,44 @@
     <session id="-73323017">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="js" value="11" />
+          <entry key="JavaScript-modules-diagram/D:/Code_Project/4_React/Project_WIS/two_football/src" value="1" />
+          <entry key="css" value="2" />
+          <entry key="js" value="21" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="11" />
+          <entry key="JavaScript" value="21" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="2" />
+          <entry key="ESLintLanguageService" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3" />
-          <entry key="js" value="2788" />
+          <entry key="js" value="2800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="JavaScript" value="2788" />
+          <entry key="JavaScript" value="2800" />
         </counts>
       </usages-collector>
     </session>
@@ -68,88 +103,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/router/AppRouter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/contact/contact_page/Contact.js">
+        <entry file="file://$PROJECT_DIR$/src/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchCard.js">
+        <entry file="file://$PROJECT_DIR$/src/components/match/match_list/MatchList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="697">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/home/home_page/Home.js">
+        <entry file="file://$PROJECT_DIR$/src/actions/bet_status.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/match/match_page/Match.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state>
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/root_reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/match/match_list/match-list.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/common/header/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchList.js">
+        <entry file="file://$PROJECT_DIR$/src/components/common/login/ModalLogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-687">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/match/match_list/match-list.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/API-key.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="95" selection-start-column="31" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -170,6 +187,9 @@
         <option value="$PROJECT_DIR$/src/views/home/home_page/Home.js" />
         <option value="$PROJECT_DIR$/src/views/match/match_page/Match.js" />
         <option value="$PROJECT_DIR$/src/views/match/match_list/MatchList.js" />
+        <option value="$PROJECT_DIR$/src/reducers/root_reducer.js" />
+        <option value="$PROJECT_DIR$/src/components/common/header/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/common/login/ModalLogin.js" />
       </list>
     </option>
   </component>
@@ -190,9 +210,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="661" />
-    <option name="y" value="26" />
-    <option name="width" value="1228" />
+    <option name="x" value="150" />
+    <option name="width" value="1693" />
     <option name="height" value="995" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -215,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,56 +247,15 @@
               <item name="two_football" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
-              <item name="two_football" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="global_component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
-              <item name="two_football" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="global_component" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
-              <item name="two_football" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
-              <item name="two_football" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
-              <item name="two_football" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="match" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="two_football" type="b2602c69:ProjectViewProjectNode" />
-              <item name="two_football" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="match" type="462c0819:PsiDirectoryNode" />
-              <item name="match_list" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../00_DoAn/PhotoHub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\Code_Project\4_React\Project_WIS\two_football\node_modules\eslint" />
@@ -287,11 +266,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\components" />
       <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\contact\contact_page" />
       <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\about_us\about_us_page" />
       <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\home\home_page" />
       <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\match\match_page" />
-      <recent name="D:\Code_Project\4_React\Project_WIS\two_football\src\views\match\match_bet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,16 +297,18 @@
       <updated>1555425247865</updated>
       <workItem from="1555425250876" duration="27766000" />
       <workItem from="1555595479683" duration="117000" />
+      <workItem from="1558493609986" duration="749000" />
+      <workItem from="1558498323121" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27883000" />
+    <option name="totallyTimeSpent" value="28998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="529" y="21" width="982" height="796" extended-state="0" />
+    <frame x="120" y="0" width="1354" height="796" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21904762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24145786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -341,7 +322,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32277527" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32277527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,80 +335,210 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/home/live_table/LiveTable.js">
+    <entry file="file://$PROJECT_DIR$/src/components/home/live_table/LiveTable.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/contact/Example.js" />
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+    <entry file="file://$PROJECT_DIR$/src/components/common/news/news.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/global_component/news/news.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/AppRouter.js">
+    <entry file="file://$PROJECT_DIR$/src/components/contact/contact_page/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/contact/contact_page/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchCard.js">
+    <entry file="file://$PROJECT_DIR$/src/components/match/match_list/MatchCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home/home_page/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/components/home/home_page/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/match/match_page/Match.js">
+    <entry file="file://$PROJECT_DIR$/src/components/match/match_page/Match.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/MatchRouter.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/API-key.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/AppRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/match/match_list/match-list.css">
+    <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/API-key.js">
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/match/match_list/MatchList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/bet_status.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="95" selection-start-column="31" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/root_reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/match/match_list/match-list.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/match/match_list/MatchList.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state>
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Code_Project/4_React/Project_WIS/two_football/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/config/API-key.js#apifootballKey#13;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/about_us/about_us_page/AboutUs.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/about_us/about_us_page/AboutUs.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/App.js#AppRouter#49;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#Footer#277;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#Header#153;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#ModalLogin#333;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#Navigation#209;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/App.js#Router#95;</node>
+            <node x="" y="">$PROJECT_DIR$/src/router/AppRouter.js#AboutUs#211;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#Contact#279;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#Home#99;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#Match#153;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#MatchBet#345;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#Route#51;D:/Code_Project/4_React/Project_WIS/two_football/src/router/AppRouter.js#Switch#58;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/BetBoard.js#BetFirstHalf#49;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#BetFullTime#92;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#BetYellowCard#133;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#Col#334;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#Modal#322;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#Row#329;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#connect#257;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#getBetStatus#180;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#match-bet.css#287;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetBoard.js#updateBetStatus#194;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/BetFirstHalf.js#Button#77;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#Col#103;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#InputNumber#85;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#Modal#108;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#Row#98;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFirstHalf.js#match-bet.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/BetFullTime.js#Button#77;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#Col#103;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#InputNumber#85;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#Modal#108;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#Row#98;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetFullTime.js#match-bet.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/BetYellowCard.js#Button#77;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#Col#103;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#InputNumber#85;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#Modal#108;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#Row#98;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/BetYellowCard.js#match-bet.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/contact/contact_page/Contact.js#Button#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#Col#71;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#Input#59;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#More#97;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#Row#66;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Contact.js#Test#124;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/footer/Footer.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/footer/Footer.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/header/Header.js#Button#61;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#Col#56;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#Modal#69;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#ModalLogin#250;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#RightHeader#209;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#Row#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#bgBlur#297;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#connect#122;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#header.css#90;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/Header.js#login#161;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/home/home_page/Home.js#Affix#82;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#Col#77;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#LiveTable#110;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#News#161;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#Row#72;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/home_page/Home.js#home.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/comment/ListComment.js#Avatar#57;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#Button#65;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#Input#83;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#List#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#Skeleton#73;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#axios#111;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/ListComment.js#comment.css#146;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/home/live_table/LiveTable.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/home/live_table/LiveTable.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_page/Match.js#Affix#82;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#Col#77;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#MatchList#152;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#News#109;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#Row#72;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_page/Match.js#match.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/MatchBet.js#Affix#69;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#BetBoard#203;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#Button#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#Col#64;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#Link#99;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#ListComment#337;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#MatchBoard#138;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#Row#59;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#UserComment#387;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#connect#300;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#getBetStatus#240;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#how_to_play.png#1083;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBet.js#match-bet.css#170;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/MatchBoard.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBoard.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_bet/MatchBoard.js#apifootballKey#51;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_list/MatchCard.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchCard.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_list/MatchList.js#Avatar#109;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchList.js#Card#123;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchList.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchList.js#Link#152;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchList.js#List#117;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchList.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/match_list/MatchList.js#apifootballKey#51;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/login/ModalLogin.js#Col#167;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#Icon#172;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#Row#162;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#connect#73;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#login#112;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/login/ModalLogin.js#login.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/contact/contact_page/More.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/More.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/navigation/Navigation.js#Affix#57;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/navigation/Navigation.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/navigation/Navigation.js#Menu#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/navigation/Navigation.js#NavLink#114;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/navigation/Navigation.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/navigation/Navigation.js#navigation.css#78;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/profile/Profile.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/profile/Profile.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/profile/Profile.js#connect#51;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/header/RightHeader.js#Button#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/RightHeader.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/RightHeader.js#Drawer#59;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/RightHeader.js#Profile#127;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/RightHeader.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/header/RightHeader.js#User#88;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/contact/contact_page/Test.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/contact/contact_page/Test.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/profile/User.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/comment/UserComment.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/UserComment.js#Input#51;D:/Code_Project/4_React/Project_WIS/two_football/src/components/match/comment/UserComment.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/antd/dist/antd.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/utils/axios.js#axios#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/assets/images/background-blur.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/actions/bet_status.js#BET_STATUS#9;D:/Code_Project/4_React/Project_WIS/two_football/src/actions/bet_status.js#axios#60;D:/Code_Project/4_React/Project_WIS/two_football/src/actions/bet_status.js#getBetStatus#636;D:/Code_Project/4_React/Project_WIS/two_football/src/actions/bet_status.js#updateBetStatus#105;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/bet_status.js#BET_STATUS#9;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/comment/comment.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/constant/constant.js#BET_STATUS#13;D:/Code_Project/4_React/Project_WIS/two_football/src/constant/constant.js#LOGIN#327;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/header/header.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/home/home_page/home.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/assets/images/how_to_play.png</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@types/react/index.d.ts</node>
+            <node x="" y="">applyMiddleware;combineReducers;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/redux/index.d.ts#createStore#10714;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/axios/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/redux-thunk/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/antd/lib/index.d.ts#Affix#17;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Avatar#210;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Button#403;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Card#499;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Col#741;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Drawer#1045;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Icon#1177;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Input#1219;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#InputNumber#1263;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#List#1366;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Menu#1519;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Modal#1561;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Row#2062;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/antd/lib/index.d.ts#Skeleton#2148;</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.js#App#119;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#Provider#196;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#ReactDOM#34;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#antd.css#83;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#index.css#61;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#serviceWorker#144;D:/Code_Project/4_React/Project_WIS/two_football/src/index.js#store#234;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-redux/es/index.js#Provider#7;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/react-redux/es/index.js#connect#171;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-dom/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/login/login.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/actions/login.js#LOGIN#9;D:/Code_Project/4_React/Project_WIS/two_football/src/actions/login.js#User#91;D:/Code_Project/4_React/Project_WIS/two_football/src/actions/login.js#axios#53;D:/Code_Project/4_React/Project_WIS/two_football/src/actions/login.js#login#145;</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/login.js#LOGIN#9;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_bet/match-bet.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/match/match_page/match.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/navigation/navigation.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/news/news.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/news/news.js#Component#16;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/news/news.js#React#7;D:/Code_Project/4_React/Project_WIS/two_football/src/components/common/news/news.js#news.css#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js#BrowserRouter#618;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/react-router-dom/esm/react-router-dom.js#Link#3354;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/react-router-dom/esm/react-router-dom.js#NavLink#5820;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-router/esm/react-router.js#Route#10960;D:/Code_Project/4_React/Project_WIS/two_football/node_modules/react-router/esm/react-router.js#Switch#19225;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/redux-logger/dist/redux-logger.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/reducers/root_reducer.js#bet_status#48;D:/Code_Project/4_React/Project_WIS/two_football/src/reducers/root_reducer.js#combineReducers#9;D:/Code_Project/4_React/Project_WIS/two_football/src/reducers/root_reducer.js#rootReducer#122;D:/Code_Project/4_React/Project_WIS/two_football/src/reducers/root_reducer.js#user#87;</node>
+            <node x="" y="">$PROJECT_DIR$/src/serviceWorker.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/store/store.js#applyMiddleware#22;D:/Code_Project/4_React/Project_WIS/two_football/src/store/store.js#createStore#9;D:/Code_Project/4_React/Project_WIS/two_football/src/store/store.js#logger#152;D:/Code_Project/4_React/Project_WIS/two_football/src/store/store.js#rootReducer#96;D:/Code_Project/4_React/Project_WIS/two_football/src/store/store.js#thunk#61;</node>
+            <node x="" y="">Component;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9" x="733.0" y="1693.111111111111" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Overview</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/login/ModalLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>

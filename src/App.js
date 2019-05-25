@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import AppRouter from './router/AppRouter';
-import { BrowserRouter as Router } from "react-router-dom";
-import Header from './global_component/header/Header';
-import Navigation from './global_component/navigation/Navigation';
-import Footer from './global_component/footer/Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/common/header/Header';
+import Navigation from './components/common/navigation/Navigation';
+import Footer from './components/common/footer/Footer';
+import ModalLogin from './components/common/login/ModalLogin';
 
 class App extends Component {
-    render() {
-        return (
-            <Router>
-                <div>
-                    <Header></Header>
-                    <Navigation></Navigation>
-
-                    <AppRouter></AppRouter>
-                    <Footer></Footer>
-                </div>
-            </Router >
-        );
-    }
+  render() {
+    return (
+      <Router>
+        <div>
+          <Header />
+          <Navigation />
+          <AppRouter />
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

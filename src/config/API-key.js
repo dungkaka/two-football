@@ -1,1 +1,2 @@
-export const apifootballKey = "e81d81b8e47ca21f964299cdfa213232723f28f0582c2e84958ee7fdd099c828";
+export const apifootballKey =
+  '49bd91f5398174320f4ed38a02a3d7263dc6275163a6ef494abd007b72a46e0a';

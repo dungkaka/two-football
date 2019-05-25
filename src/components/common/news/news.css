@@ -1,0 +1,50 @@
+.box-news-container {
+    background: #f9f9f9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin: 0px 3vh;
+}
+
+.title-cat {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0px;
+    padding: 15px;
+    border-bottom: 1px solid #dddddd;
+    background-image: linear-gradient(to right, #6e1a52 , #e44f52);
+    color: white;
+}
+
+.k-category-list {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 10px 0;
+}
+
+.box-news-container ul {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+
+.box-news-container > ul > li {
+    list-style: none;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+.box-news-container > ul > li:first-child {
+    padding-top: 5px;
+}
+
+.box-news-container > ul > li > a {
+    color: rgb(95, 95, 95);
+}
+
+.box-news-container > ul > li > a:hover {
+    color: rgb(36, 124, 175);
+    text-decoration: none;
+}

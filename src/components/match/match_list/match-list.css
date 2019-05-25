@@ -1,0 +1,49 @@
+.title-card {
+    height: 150px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+
+.title-card>* {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.card>.match-card {
+    background: linear-gradient(to right, #6e1a52, #e44f52);
+    width: 95%;
+    margin: auto;
+    border: none;
+    line-height: auto;
+    border-radius: 15px;
+    transition: all 0.2s
+}
+
+.card>.match-card:hover {
+    background: linear-gradient(to right, #2a8899, #276ab6);
+    transform: scale(1.2);
+    z-index: 1000;
+}
+
+.body-betcard {
+    color: white;
+}
+
+.body-betcard>*>*>* {
+    color: white;
+}
+
+.button-live {
+    color: red;
+}
+
+.button-live:hover {
+    color: rgb(207, 199, 199);
+}
