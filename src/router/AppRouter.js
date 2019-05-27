@@ -10,7 +10,7 @@ import Recharge from '../components/recharges.js/Recharge';
 class AppRouter extends Component {
   render() {
     return (
-      <div>
+      <div style={{ minHeight: '600px' }}>
         <Route path="/" exact component={Home} />
         <Route path="/home" component={Home} />
         <Route path="/match" exact component={Match} />

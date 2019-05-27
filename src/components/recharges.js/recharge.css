@@ -25,11 +25,11 @@
 }
 
 .button-recharge:focus {
-    transform: scale(1.1);
-    background: linear-gradient(to right, #f04e4e, #db2528);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.466) 10px 10px 20px;
-  }
+  transform: scale(1.1);
+  background: linear-gradient(to right, #f04e4e, #db2528);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.466) 10px 10px 20px;
+}
 
 .content-recharge {
   background: #292a31;
@@ -46,7 +46,6 @@
 }
 
 .content-recharge:hover {
-  z-index: 1000;
   box-shadow: white 0px 0px 20px;
   background: rgba(0, 0, 0, 0.486);
 }

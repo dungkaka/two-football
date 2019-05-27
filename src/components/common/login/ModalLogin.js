@@ -108,7 +108,9 @@ class ModalLogin extends Component {
                         }
                       }}
                     >
-                      {this.props.loading && <Icon type="loading" />}
+                      {this.props.loading && (
+                        <Icon type="loading" style={{ marginRight: '10px' }} />
+                      )}
                       {` Login `}
                     </button>
                   </div>

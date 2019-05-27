@@ -23,41 +23,35 @@ class RightHeader extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ margin: 'auto' }}>
         {this.props.user === null && (
-          <div>
-            <Button onClick={this.props.showModal}> LOGIN </Button>
-          </div>
+          <Button onClick={this.props.showModal}> LOGIN </Button>
         )}
         {this.props.user !== null && (
-          <div>
-            <a
-              to="/profile"
-              style={{
-                borderRight: '1.5px solid #b5c7eb',
-                paddingRight: '5px',
-              }}
-            >
-              <span>
-                <img
-                  style={{ height: '1.6rem', marginRight: '10px' }}
-                  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
-                  className="rounded-circle"
-                  alt="User"
-                />
-              </span>
-              <span onClick={() => this.showDrawer()}> {this.props.user.username} </span>
-            </a>
+          <div className="user-header">
+            <div onClick={() => this.showDrawer()}>
+              <img
+                style={{ height: '1.6rem', marginRight: '10px' }}
+                src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                className="rounded-circle"
+                alt="User"
+              />{' '}
+              {this.props.user.username}{' '}
+            </div>
+
+            <span style={{ margin: '0px 10px' }}> | </span>
             <a
               href="/home"
               onClick={() => {
                 localStorage.clear();
               }}
             >
-              Log out
+              <div style={{ marginTop: '-1px', color: 'rgb(212, 212, 212)' }}>
+                Log out
+              </div>
             </a>
             <Drawer
-              width={"30%"}
+              width={'40%'}
               title="User Information"
               placement="right"
               closable={false}

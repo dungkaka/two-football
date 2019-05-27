@@ -57,12 +57,10 @@ class Header extends Component {
       <div>
         <Row className="header">
           <Col span={6}>
-            <div className="logox" >
-            <img className="logo" src={logo}/>
-            </div>
+            <img className="logox" src={logo} />
           </Col>
           <Col span={12} />
-          <Col span={6}>
+          <Col span={6} style={{ display: 'flex' }}>
             <RightHeader showModal={this.showModal} user={this.props.user.user} />
           </Col>
         </Row>

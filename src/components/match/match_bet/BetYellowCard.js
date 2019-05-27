@@ -12,7 +12,7 @@ class BetYellowCard extends Component {
       bet_amount: '100',
       visible: false,
       confirmLoading: false,
-      disableBet: true,
+      disableBet: false,
     };
   }
 
@@ -34,8 +34,8 @@ class BetYellowCard extends Component {
       return {
         ...prevState,
         confirmLoading: loading,
-        disableBet:
-          nextProps.match_status === '' && nextProps.match_status === 'FT' ? false : true,
+        // disableBet:
+        //   nextProps.match_status === '' && nextProps.match_status === 'FT' ? false : true,
       };
     }
   }
@@ -115,10 +115,7 @@ class BetYellowCard extends Component {
                   disabled={disableBet}
                 />
               </Col>
-              <Col
-                span={2}
-                style={{ borderRight: '1px solid #d75f63', margin: '5px' }}
-              />
+              <Col span={2} style={{ borderRight: '1px solid #d75f63', margin: '5px' }} />
               <Col span={10} style={{ textAlign: 'center', margin: 'auto' }}>
                 <span> Bet Amount </span>
                 <br />

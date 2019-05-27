@@ -1,22 +1,36 @@
 .header {
-    display: flex;
-    flex-wrap: wrap;
-    background: #30044944;
-    height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #18162744;
 }
 
-.logox{
-    padding: 5px 10px 10px 50px;
+.logox {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+  margin: auto;
+  padding: 10px 10px 0px;
 }
-.logox >img{
-       object-fit: cover;
-       width:65%;
-} 
 
 .white {
-    background: white;
+  background: white;
 }
 
 .ant-modal-content {
-    border-radius: 20px;
+  border-radius: 20px;
+}
+
+.user-header {
+  color: rgb(212, 212, 212);
+  display: flex;
+}
+
+.user-header div {
+  transition: all 0.2s;
+}
+
+.user-header div:hover {
+  color: rgb(255, 154, 154);
+  transform: scale(1.1);
+  cursor: pointer;
 }

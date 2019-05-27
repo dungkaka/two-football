@@ -13,7 +13,7 @@ class BetFullTime extends Component {
       bet_amount: '100',
       visible: false,
       confirmLoading: false,
-      disableBet: true,
+      disableBet: false,
     };
   }
 
@@ -38,8 +38,8 @@ class BetFullTime extends Component {
       return {
         ...prevState,
         confirmLoading: loading,
-        disableBet:
-          nextProps.match_status === '' && nextProps.match_status === 'FT' ? false : true,
+        // disableBet:
+        //   nextProps.match_status === '' && nextProps.match_status === 'FT' ? false : true,
       };
     }
   }
