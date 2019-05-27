@@ -34,3 +34,11 @@
   border-radius: 50%;
   background: white;
 }
+
+.contact .ant-col-6:hover {
+  transition: all 0.2s;
+}
+
+.contact .ant-col-6:hover {
+  transform: scale(1.2);
+}

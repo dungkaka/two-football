@@ -76,7 +76,9 @@ class HistoryBet extends Component {
   render() {
     return (
       <div className="history-bet">
-        <h1 style={{ textAlign: 'center', color: 'white' }}>HISTORY BET</h1>
+        <h1 style={{ textAlign: 'center', color: 'white', margin: '10px' }}>
+          HISTORY BET
+        </h1>
         <Table columns={columns} dataSource={this.state.bet_history} pagination={false} />
       </div>
     );
