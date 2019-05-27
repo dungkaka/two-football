@@ -1,0 +1,23 @@
+ .profile{
+   font-size: 20px;
+}
+.title{
+    font-style: bold;
+}
+.ant-drawer-wrapper-body{
+background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.balance{
+  font-size: 26px;
+}
+.ant-row{
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
+.ant-drawer-header{
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  
+}
+.ant-drawer-title{
+  color: white;
+  font: normal 36px 'Cookie', cursive;
+}

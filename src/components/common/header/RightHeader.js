@@ -57,7 +57,7 @@ class RightHeader extends Component {
               Log out
             </a>
             <Drawer
-              width={640}
+              width={"30%"}
               title="User Information"
               placement="right"
               closable={false}

@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { login } from './../../../actions/login';
 import RightHeader from './RightHeader';
 import ModalLogin from './../login/ModalLogin';
+import logo from '../../../assets/images/logo.png';
 const bgBlur = require('../../../assets/images/background-blur.png');
 
 class Header extends Component {
@@ -56,7 +57,9 @@ class Header extends Component {
       <div>
         <Row className="header">
           <Col span={6}>
-            <div className="logo" />
+            <div className="logox" >
+            <img className="logo" src={logo}/>
+            </div>
           </Col>
           <Col span={12} />
           <Col span={6}>
