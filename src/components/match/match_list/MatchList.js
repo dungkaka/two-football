@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { apifootballKey } from '../../../config/API-key';
 import { message, List, notification, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import MatchCard from './MatchCard';
-import User from './../../profile/User';
 import { connect } from 'react-redux';
 import { URL } from './../../../config/end-points-url';
 

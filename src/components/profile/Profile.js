@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Icon, Row, Col, Avatar } from 'antd';
 import './Profile.css';
+const dung = require('../../assets/images/dung.jpg');
+
 class Profile extends Component {
   render() {
     const { user } = this.props.user;
@@ -10,18 +12,19 @@ class Profile extends Component {
         <Row>
           <Col span={24} align="center">
             {' '}
-            <Avatar
-              size={128}
-              icon="user"
-              src="https://i.kinja-img.com/gawker-media/image/upload/s--UYWnBrHt--/c_scale,f_auto,fl_progressive,q_80,w_800/wmpvownqus8xwvylswsr.jpg"
-            />
+            <Avatar size={128} icon="user" src={dung} />
           </Col>
         </Row>
 
         <Row>
           <Col span={24} align="center">
             <b>
-              <Avatar shape="square" size="small" icon="user" />
+              <Avatar
+                shape="square"
+                size="small"
+                icon="user"
+                style={{ marginRight: '10px', marginTop: '-6px' }}
+              />
               {user.username}
             </b>
           </Col>

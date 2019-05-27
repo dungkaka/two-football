@@ -55,7 +55,6 @@ const columns = [
   },
 ];
 
-//const dataSource= [this.state.bet_history];
 class HistoryBet extends Component {
   constructor(props) {
     super(props);
@@ -64,18 +63,6 @@ class HistoryBet extends Component {
       visible: false,
     };
   }
-
-  showDrawer = () => {
-    this.setState({
-      visible: true,
-    });
-  };
-
-  onClose = () => {
-    this.setState({
-      visible: false,
-    });
-  };
 
   componentDidMount = async () => {
     const response = await request.server.get(

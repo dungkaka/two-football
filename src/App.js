@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/common/header/Header';
 import Navigation from './components/common/navigation/Navigation';
 import Footer from './components/common/footer/Footer';
-import ModalLogin from './components/common/login/ModalLogin';
 
 class App extends Component {
   render() {

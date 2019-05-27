@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, Drawer } from 'antd';
-import User from '../../profile/User';
 import Profile from '../../profile/Profile';
 
 class RightHeader extends Component {
@@ -52,7 +51,7 @@ class RightHeader extends Component {
             </a>
             <Drawer
               width={'40%'}
-              title="User Information"
+              title="   USER INFORMATION"
               placement="right"
               closable={false}
               onClose={this.onClose}
