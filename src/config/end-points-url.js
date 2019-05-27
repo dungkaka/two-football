@@ -1,7 +1,8 @@
 import { apifootballKey } from './API-key';
 
 const preUrl = 'http://54.254.228.77/';
-// const preUrl = 'https://two-football-laravel.herokuapp.com/';
+// const preUrl = 'http://two-football.herokuapp.com/';
+// const preUrl = 'http://two-football-laravel.herokuapp.com/';
 const preFootballAPI = `https://apifootball.com/api/?APIkey=${apifootballKey}`;
 
 export const URL = {
@@ -35,5 +36,13 @@ export const URL = {
 
   COMMENT_ON_MATCH: (match_id) => {
     return preUrl + `api/v1/matches/${match_id}/comments`;
+  },
+
+  DEPOSIT_BALANCE: (user_id) => {
+    return preUrl + `api/v1/users/${user_id}/balance`;
+  },
+
+  GET_MILLIONAIRES_RAKING: () => {
+    return preUrl + `api/v1/users/millionaires`;
   },
 };

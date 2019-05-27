@@ -1,4 +1,41 @@
 .navigation-menu {
-    text-align: center;
-    
+  text-align: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  background: linear-gradient(to right, #6e1a52, #e44f52);
+  border: none;
+}
+
+.navigation-menu .ant-menu-item {
+  display: flex;
+  transition: all 0.2s;
+  border-radius: 10px;
+}
+
+.navigation-menu .ant-menu-item:hover {
+  background: white;
+  transform: scale(1.2);
+  border: none;
+}
+
+.navigation-menu .ant-menu-item .nav-item {
+  margin: auto;
+  color: white;
+}
+
+.navigation-menu .ant-menu-item .nav-item:hover {
+  color: red;
+  border: none;
+}
+
+.navigation-menu .ant-menu-item .nav-item.active {
+  color: red;
+  font-weight: bolder;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected {
+  border: none;
+  background: white;
+  color: red;
 }

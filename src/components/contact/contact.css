@@ -1,0 +1,36 @@
+.contact {
+  background: #292a31;
+  background: rgba(0, 0, 0, 0.486);
+  padding: 2vh 5%;
+  border-radius: 10px;
+  min-height: 500px;
+  margin: 5vh 10%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.39) 0px 0px 10px;
+}
+
+.contact:hover {
+  z-index: 1000;
+  box-shadow: white 0px 0px 20px;
+  background: rgba(0, 0, 0, 0.486);
+}
+
+.contact * {
+  color: white;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}

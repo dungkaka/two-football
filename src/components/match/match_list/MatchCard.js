@@ -25,15 +25,15 @@ class MatchCard extends Component {
                 </Col>
               </Row>
 
-              <Row style={{ display: 'flex' }}>
+              <Row style={{ display: 'flex', marginTop: '10px' }}>
                 <Col span={10} style={{ textAlign: 'right', fontSize: '25px' }}>
-                  0
+                  {item.match_hometeam_score}
                 </Col>
                 <Col span={4} style={{ textAlign: 'center', margin: 'auto' }}>
                   -
                 </Col>
                 <Col span={10} style={{ textAlign: 'left', fontSize: '25px' }}>
-                  1
+                  {item.match_awayteam_score}
                 </Col>
               </Row>
             </div>
@@ -53,16 +53,11 @@ class MatchCard extends Component {
                 }}
               >
                 <p> Time: {item.match_time}</p>
-                <p> Live: {item.match_live}</p>
+                <p> Date: {item.match_date}</p>
               </Col>
               <Col span={8}>
-                <Button
-                  type="danger"
-                  style={{
-                    borderRadius: '20px',
-                  }}
-                >
-                  <span className="button-live">Live</span>
+                <Button type="danger" className="button-live">
+                  Live
                 </Button>
               </Col>
             </Row>

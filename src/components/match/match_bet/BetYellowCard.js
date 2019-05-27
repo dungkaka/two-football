@@ -117,7 +117,7 @@ class BetYellowCard extends Component {
               </Col>
               <Col
                 span={2}
-                style={{ borderRight: '1px solid darkgray', margin: '5px' }}
+                style={{ borderRight: '1px solid #d75f63', margin: '5px' }}
               />
               <Col span={10} style={{ textAlign: 'center', margin: 'auto' }}>
                 <span> Bet Amount </span>

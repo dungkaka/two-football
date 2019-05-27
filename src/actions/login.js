@@ -12,6 +12,21 @@ export const login = (user) => {
         username: user.username,
         password: user.password,
       });
+      //   try {
+      //     const response = await fetch('http://two-football-laravel.herokuapp.com/login', {
+      //       method: 'POST',
+      //       body: JSON.stringify({
+      //         username: 'dung',
+      //         password: '123456',
+      //       }),
+      //       mode: 'no-cors',
+      //       headers: {
+      //         'Content-type': 'application/json; charset=UTF-8',
+      //       },
+      //     }).then((res) => console.log(res));
+      //   } catch (error) {
+      //     throw new Error(error);
+      //   }
 
       const data = response.data;
 

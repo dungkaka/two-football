@@ -5,10 +5,22 @@ import BetYellowCard from './BetYellowCard';
 import { getBetStatus, updateBetStatus } from '../../../actions/bet_status';
 import { connect } from 'react-redux';
 import './match-bet.css';
+import { Icon, Row } from 'antd';
 
 class BetBoard extends Component {
-  componentDidMount() {
-    this.props.getBetStatus(this.props.match_id);
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: false,
+    };
+  }
+
+  async componentDidMount() {
+    await this.setState({
+      isLoading: true,
+    });
+    await this.props.getBetStatus(this.props.match_id);
+    this.setState({ isLoading: false });
   }
 
   render() {
@@ -25,33 +37,45 @@ class BetBoard extends Component {
     const betYellowCard = bet_status.byId['3'];
     return (
       <div className="bet-board">
-        <BetFirstHalf
-          home={home}
-          away={away}
-          betFirstHalf={betFirstHalf}
-          loadingModal={bet_status.loading}
-          errorModal={bet_status.error}
-          updateBetStatus={updateBetStatus}
-          match_status={match_status}
-          match_id={match_id}
-        />
-        <BetFullTime
-          home={home}
-          away={away}
-          betFullTime={betFullTime}
-          loadingModal={bet_status.loading}
-          errorModal={bet_status.error}
-          updateBetStatus={updateBetStatus}
-          match_status={match_status}
-          match_id={match_id}
-        />
-        <BetYellowCard
-          loadingModal={bet_status.loading}
-          betYellowCard={betYellowCard}
-          updateBetStatus={updateBetStatus}
-          match_status={match_status}
-          match_id={match_id}
-        />
+        {this.state.isLoading && (
+          <div style={{ textAlign: 'center' }}>
+            <Icon
+              type="loading"
+              style={{ fontSize: '50px', color: 'white', margin: 'auto' }}
+            />
+          </div>
+        )}
+        {!this.state.isLoading && (
+          <div>
+            <BetFirstHalf
+              home={home}
+              away={away}
+              betFirstHalf={betFirstHalf}
+              loadingModal={bet_status.loading}
+              errorModal={bet_status.error}
+              updateBetStatus={updateBetStatus}
+              match_status={match_status}
+              match_id={match_id}
+            />
+            <BetFullTime
+              home={home}
+              away={away}
+              betFullTime={betFullTime}
+              loadingModal={bet_status.loading}
+              errorModal={bet_status.error}
+              updateBetStatus={updateBetStatus}
+              match_status={match_status}
+              match_id={match_id}
+            />
+            <BetYellowCard
+              loadingModal={bet_status.loading}
+              betYellowCard={betYellowCard}
+              updateBetStatus={updateBetStatus}
+              match_status={match_status}
+              match_id={match_id}
+            />
+          </div>
+        )}
       </div>
     );
   }

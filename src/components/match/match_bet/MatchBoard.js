@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { URL } from './../../../config/end-points-url';
+import { Row, Col, Button, Icon } from 'antd';
 
 class MatchBoard extends Component {
   constructor(props) {
@@ -24,6 +25,7 @@ class MatchBoard extends Component {
   async componentDidMount() {
     const url = URL.GET_MATCH(this.props.match_id);
 
+    this.setState({ isLoading: true });
     fetch(url)
       .then((response) => {
         return response.json();
@@ -31,7 +33,7 @@ class MatchBoard extends Component {
       .then((data) => {
         this.setState({
           match: data[0],
-          isLoading: true,
+          isLoading: false,
         });
       });
 
@@ -43,7 +45,7 @@ class MatchBoard extends Component {
         .then((data) => {
           this.setState({
             match: data[0],
-            isLoading: true,
+            isLoading: false,
           });
 
           if (this.state.match.match_live === '0') {
@@ -61,18 +63,35 @@ class MatchBoard extends Component {
     const { match } = this.state;
     return (
       <div className="match-board">
-        {JSON.stringify(
-          {
-            Id: match.match_id,
-            Home: match.match_hometeam_name,
-            Away: match.match_awayteam_name,
-            Match_Time: match.match_time,
-            Result: match.match_hometeam_score + match.match_awayteam_score,
-            Live: match.match_live,
-          },
-          null,
-          '\t'
-        )}
+        <Row style={{ display: 'flex' }}>
+          <Col span={11} style={{ textAlign: 'right' }}>
+            <div>
+              {match.match_hometeam_name}
+              <Button type="danger" className="button-score-left">
+                {match.match_hometeam_score}
+              </Button>
+            </div>
+          </Col>
+
+          <Col span={2} style={{ textAlign: 'center', margin: 'auto' }}>
+            {this.state.isLoading && <Icon type="loading" />}
+            {!this.state.isLoading && '-'}
+          </Col>
+
+          <Col span={11} style={{ textAlign: 'left' }}>
+            <div>
+              <Button type="danger" className="button-score-right">
+                {match.match_awayteam_score}
+              </Button>
+              {match.match_awayteam_name}
+            </div>
+          </Col>
+        </Row>
+
+        <Row style={{ textAlign: 'center', marginTop: '5px' }}>
+          <p>Match Time: {match.match_time}</p>
+          <p>Match Status: {match.match_status}</p>
+        </Row>
       </div>
     );
   }

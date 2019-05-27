@@ -29,11 +29,14 @@ class Navigation extends Component {
                 </NavLink>
               </Menu.Item>
             )}
-            <Menu.Item key="about_us">
-              <NavLink className="nav-item" to="/aboutus">
-                <span className="nav-link">ABOUT US</span>
-              </NavLink>
-            </Menu.Item>
+
+            {this.props.user.user && (
+              <Menu.Item key="recharge">
+                <NavLink className="nav-item" to="/recharge">
+                  <span className="nav-link">RECHARGE</span>
+                </NavLink>
+              </Menu.Item>
+            )}
 
             <Menu.Item key="contact">
               <NavLink className="nav-item" to="/contact">

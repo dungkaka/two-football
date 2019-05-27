@@ -43,8 +43,9 @@ class MatchList extends Component {
           onClick={() => {
             notification.open({
               message: 'Login before go into Bet room',
-              description: 'Hi',
-              icon: <Icon type="smile" style={{ color: '#108ee9' }} />,
+              icon: (
+                <Icon type="warning" style={{ color: '#108ee9', fontSize: '20px' }} />
+              ),
             });
           }}
         >

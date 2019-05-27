@@ -1,0 +1,117 @@
+.recharge {
+  padding: 5vh 10%;
+}
+
+.button-recharge {
+  padding: 15px;
+  background: linear-gradient(to right, #6e1a52, #e44f52);
+  height: auto;
+  width: -webkit-fill-available;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  left: -10px;
+  margin: 5px 0px;
+}
+
+.button-recharge:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #f04e4e, #db2528);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.466) 10px 10px 20px;
+}
+
+.button-recharge:focus {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #f04e4e, #db2528);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.466) 10px 10px 20px;
+  }
+
+.content-recharge {
+  background: #292a31;
+  background: rgba(0, 0, 0, 0.486);
+  padding: 2vh 5%;
+  border-radius: 10px;
+  min-height: 400px;
+  margin: 0px 5%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s;
+  color: white;
+}
+
+.content-recharge:hover {
+  z-index: 1000;
+  box-shadow: white 0px 0px 20px;
+  background: rgba(0, 0, 0, 0.486);
+}
+
+.content-recharge h1 {
+  color: white;
+  margin: auto;
+}
+
+.content-recharge p {
+  color: white;
+  margin: auto 0px;
+  min-width: 100px;
+}
+
+.content-recharge .input-money {
+  font-size: 20px;
+  height: 45px;
+  padding: 5px 25px;
+  min-width: 200px;
+  border-radius: 25px;
+  margin: 10px 10px 10px 0px;
+}
+
+.content-recharge .button-comfirm-money {
+  padding: 10px 25px;
+  background: linear-gradient(to right, #46c1f1, #367cff);
+  height: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  width: -webkit-fill-available;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin: 10px 10px 10px 0px;
+  border-radius: 25px;
+}
+
+.content-recharge .button-comfirm-money:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #ff5d5d, #e62f32);
+  color: white;
+}
+
+.ant-table-body {
+  color: white;
+  margin: 20px;
+}
+
+.table-millionaires .ant-table-tbody > tr > td {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.336);
+}
+
+.table-millionaires .ant-table-thead tr th {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.336);
+}
+
+.table-millionaires .ant-table-body tr:hover td {
+  transform: scale(1.2);
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+
+.table-millionaires .ant-table-body .ant-table-thead tr th {
+  background: none;
+  color: white;
+}

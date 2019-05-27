@@ -114,7 +114,7 @@ class BetFullTime extends Component {
           <Col span={14} className="bet-card-content">
             <Row style={{ display: 'flex' }}>
               <Col span={12} className="bet-input-content">
-                <span> {`${home}`} </span>
+                <span style={{ color: '#f13e47' }}> {`${home}`} </span>
                 <InputNumber
                   className="bet-input"
                   disabled={disableBet}
@@ -124,7 +124,7 @@ class BetFullTime extends Component {
                   onChange={(event) => this.onHomeChange(event)}
                 />
                 <br />
-                <span> {`${away}`} </span>
+                <span style={{ color: 'rgb(57, 167, 219)' }}> {`${away}`} </span>
                 <InputNumber
                   className="bet-input"
                   disabled={disableBet}
@@ -134,10 +134,7 @@ class BetFullTime extends Component {
                   onChange={(event) => this.onAwayChange(event)}
                 />
               </Col>
-              <Col
-                span={2}
-                style={{ borderRight: '1px solid darkgray', margin: '5px' }}
-              />
+              <Col span={2} style={{ borderRight: '1px solid #d75f63', margin: '5px' }} />
               <Col span={10} style={{ textAlign: 'center', margin: 'auto' }}>
                 <span> Bet Amount </span>
                 <br />

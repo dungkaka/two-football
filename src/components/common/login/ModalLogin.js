@@ -35,16 +35,18 @@ class ModalLogin extends Component {
     return (
       <div>
         <Row style={{ display: 'flex' }}>
-          <Col span={12} className="col-md-6 left-side">
+          <Col xs={0} sm={0} md={12} lg={12} className="left-side">
             <div className="content">
-              <h5>WELCOME TO WEBSITE</h5>
+              <h3 style={{ color: 'white' }}>WELCOME TO WEBSITE</h3>
               <div className="outs_more-buttn">
-                <a href="about.html">GROUP 05 - ICT K60</a>
+                <a href="/home" style={{ color: 'white' }}>
+                  GROUP 02 - ICT K60
+                </a>
               </div>
             </div>
           </Col>
 
-          <Col span={12}>
+          <Col sx={24} sm={24} md={12} lg={12}>
             <div className="wrap-login100">
               <form className="login100-form validate-form" ref="submitForm">
                 {/* Title Login */}

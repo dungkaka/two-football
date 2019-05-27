@@ -83,35 +83,53 @@ class ListComment extends Component {
       !initLoading && !loading ? (
         <div
           style={{
+            background: 'none',
             textAlign: 'center',
             marginTop: 12,
             height: 32,
             lineHeight: '32px',
           }}
         >
-          <Button onClick={() => this.onLoadMore(count)}>loading more</Button>
+          <Button
+            style={{
+              background: 'none',
+              borderRadius: '15px',
+            }}
+            onClick={() => this.onLoadMore(count)}
+          >
+            loading more
+          </Button>
         </div>
       ) : null;
 
     return (
       <div>
         <List
-          className="demo-loadmore-list"
+          className="list-comment"
           loading={initLoading}
           itemLayout="horizontal"
           loadMore={loadMore}
           dataSource={list}
           renderItem={(item) => (
-            <List.Item actions={[<a>reply</a>]}>
+            <List.Item>
               <Skeleton avatar title={false} loading={item.loading} active>
                 <List.Item.Meta
                   avatar={
-                    <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
+                    <Avatar
+                      src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+                      style={{ background: 'white' }}
+                    />
                   }
                   title={<a href="https://ant.design">{item.user.name}</a>}
-                  description={`${item.comment}`}
+                  description={
+                    <div>
+                      <p>{item.comment}</p>
+                      <p style={{ fontSize: '12px', color: 'red' }}>
+                        {item.time && item.time.replace('T', ' ')}
+                      </p>
+                    </div>
+                  }
                 />
-                <div>time</div>
               </Skeleton>
             </List.Item>
           )}

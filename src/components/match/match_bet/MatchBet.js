@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Row, Col, Affix } from 'antd';
+import { Button, Row, Col, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import MatchBoard from './MatchBoard';
 import './match-bet.css';
@@ -13,11 +13,16 @@ class MatchBet extends Component {
   render() {
     return (
       <div className="match-bet">
-        <Button>
-          <Link to="/match"> BACK </Link>
-        </Button>
+        <Row style={{ textAlign: 'center', marginBottom: '2vh' }}>
+          <Button className="button-back">
+            <Link to="/match">
+              <Icon type="arrow-left" /> BACK{' '}
+            </Link>
+          </Button>
+        </Row>
+
         <Row>
-          <Col span={18}>
+          <Col lg={18} style={{ padding: '0px 15px' }}>
             <MatchBoard match_id={this.props.location.state.match.match_id} />
             <BetBoard
               match_id={this.props.location.state.match.match_id}
@@ -29,14 +34,12 @@ class MatchBet extends Component {
             <ListComment match_id={this.props.location.state.match.match_id} />
           </Col>
 
-          <Col span={6}>
-            <Affix>
-              <img
-                src={require('../../../assets/images/how_to_play.png')}
-                style={{ width: '100%', padding: '0vh 5vh 5vh 5vh' }}
-                alt=""
-              />
-            </Affix>
+          <Col lg={6}>
+            <img
+              src={require('../../../assets/images/how_to_play.png')}
+              style={{ width: '100%', padding: '0vh 5vh 5vh 5vh' }}
+              alt=""
+            />
           </Col>
         </Row>
       </div>

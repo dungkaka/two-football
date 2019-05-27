@@ -1,4 +1,32 @@
-.demo-loadmore-list {
+.list-comment {
+    margin-top: 15px;
     min-height: 350px;
-    background: white
+    background: none;
+}
+
+.list-comment * {
+    color: white !important;
+}
+
+.image-user-comment {
+    height: 45px;
+    margin: auto;
+    border-radius: 50%;
+    background: white;
+}
+
+.comment-match {
+    display: flex;
+    margin: 10% 0 0 0;
+}
+
+.input-comment {
+    background: none;
+    color: white;
+    border-radius: 15px;
+    border: white solid 1.5px;
+}
+
+.input-comment:focus {
+    border: rgb(165, 237, 255) solid 1.5px !important;
 }

@@ -1,32 +1,69 @@
 .match-bet {
-    padding: 5vh 10vh;
+    padding: 2vh 10%;
 }
 
 .match-board {
     background: #292a31;
-    color: white;
-    padding: 5vh;
+    color: rgba(255, 252, 214, 1);
+    padding: 1vh;
     border-radius: 10px;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all .2s;
 }
 
+.match-board:hover {
+    z-index: 1000;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px;
+    background: rgba(0, 0, 0, 0.486);
+}
 
+.match-board>* {
+    font-size: 25px;
+    font-weight: bold;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.match-board p {
+    color: rgba(255, 252, 214, 1);
+}
+
+.match-board-home-score {
+    margin: 0px 10px;
+    font-size: 35px;
+    background: white;
+    color: red;
+    border-radius: 10px;
+    text-align: center;
+}
 
 .bet-board {
-    margin: 10vh 0vh 0vh 0vh;
+    margin: 5% 0vh 0vh 0vh;
 }
 
 .bet-fix-flex {
     display: flex;
 }
 
-
 .bet-card {
     margin: 2vh 0vh 0vh 0vh;
+    transition: all .2s;
+}
+
+.bet-card:hover {
+    transform: scale(1.1);
+    margin: 3vh 0vh;
 }
 
 .bet-card-title {
     padding: 10px 30px 10px 10px;
-    background: #ff6e3e;
+    background: linear-gradient(to right, #6e1a52, #e44f52);
     border-radius: 10px;
     color: white;
     font-size: 16px;
@@ -50,10 +87,11 @@
 
 .bet-card-action {
     padding: 10px;
-    background: rgb(0, 183, 255);
+    background: linear-gradient(to right, #46c1f1, #367cff);
     height: auto;
     width: -webkit-fill-available;
     border-radius: 10px;
+    border: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -62,6 +100,11 @@
     margin: auto 0px;
 }
 
+.bet-card-action:hover {
+    transform: scale(1.2);
+    background: linear-gradient(to right, #ff5d5d, #e62f32);
+    color: white;
+}
 
 .bet-input-content {
     text-align: right;
@@ -70,4 +113,62 @@
 .bet-input {
     text-align: right;
     margin: 5px 0px;
+}
+
+.button-score-left {
+    background: linear-gradient(to right, #ec4b66, #f33b3e);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 40px;
+    height: 60px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.button-score-right {
+    background: linear-gradient(to right, #3aa9d4, #369eff);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 40px;
+    height: 60px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.button-score-left:hover {
+    background: white;
+    color: #e62c2f;
+    border: none;
+    transform: scale(1.5);
+}
+
+.button-score-right:hover {
+    background: white;
+    color: #369eff;
+    border: none;
+    transform: scale(1.5);
+}
+
+.button-back {
+    background: none;
+    color: white;
+    border: none;
+    transition: none;
+}
+
+.button-back a {
+    font-size: 24px;
+    transition: none;
+}
+
+.button-back:hover {
+    background: none;
+    color: rgb(115, 227, 255);
+    transform: scale(1.1);
+}
+
+.bet-board .ant-btn[disabled] {
+    background: #eeeeee;
 }
