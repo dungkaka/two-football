@@ -1,9 +1,9 @@
 import { BET_STATUS } from './../constant/constant';
 import request from './../utils/axios';
 import { URL } from './../config/end-points-url';
-import * as axios from 'axios';
-
-export const updateBetStatus = (bet, match_id) => {
+import { receiveNotification } from './notification';
+import { betNotificationChannel as channel } from '../utils/pusher';
+export const updateBetStatus = (bet, match_id, user_id) => {
   return async (dispatch) => {
     dispatch(requestUpdateBetContent());
 
@@ -13,7 +13,10 @@ export const updateBetStatus = (bet, match_id) => {
         { ...bet }
       );
 
-      dispatch(completeUpdateBetContent({ bet: response.bet }));
+      dispatch(completeUpdateBetContent({ bet: response.data.bet }));
+      channel.bind(`bet_${match_id}_${bet.bet_type}_${user_id}`, function(data) {
+        dispatch(receiveNotification(data));
+      });
     } catch (error) {
       dispatch(invalidateBetType(error.response.data));
     }
@@ -25,22 +28,6 @@ export const getBetStatus = (match_id) => {
     dispatch(requestBetStatus());
 
     try {
-      //   const response = {
-      //     status: 'true',
-      //     bets: [
-      //       {
-      //         bet_type: 1,
-      //         bet_content: '1-1',
-      //         bet_amount: 400,
-      //       },
-      //       {
-      //         bet_type: 2,
-      //         bet_content: '2-1',
-      //         bet_amount: 200,
-      //       },
-      //     ],
-      //   };
-
       console.log('URL', URL.GET_BET_STATUS_USER_ON_MATCH(match_id));
       const response = await request.server.get(
         URL.GET_BET_STATUS_USER_ON_MATCH(match_id)

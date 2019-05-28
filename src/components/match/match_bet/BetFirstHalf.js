@@ -63,7 +63,8 @@ class BetFirstHalf extends Component {
         bet_amount: this.state.bet_amount,
         bet_content: `${this.state.home_score}-${this.state.away_score}`,
       },
-      this.props.match_id
+      this.props.match_id,
+      this.props.user_id
     );
 
     if (this.state.bet_error == null) {

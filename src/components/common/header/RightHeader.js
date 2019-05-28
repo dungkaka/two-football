@@ -24,7 +24,10 @@ class RightHeader extends Component {
     return (
       <div style={{ margin: 'auto' }}>
         {this.props.user === null && (
-          <Button onClick={this.props.showModal}> LOGIN </Button>
+          <Button type="primary" onClick={this.props.showModal}>
+            {' '}
+            LOGIN{' '}
+          </Button>
         )}
         {this.props.user !== null && (
           <div className="user-header">

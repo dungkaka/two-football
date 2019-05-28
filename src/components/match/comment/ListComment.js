@@ -3,7 +3,7 @@ import { List, Avatar, Button, Skeleton, Input } from 'antd';
 import './comment.css';
 import request from './../../../utils/axios';
 import { URL } from './../../../config/end-points-url';
-import Pusher from 'pusher-js';
+import { commentChannel as channel } from './../../../utils/pusher';
 
 const count = 5;
 
@@ -59,11 +59,6 @@ class ListComment extends Component {
   };
 
   subcribeComment = () => {
-    var pusher = new Pusher('831b0d6aebed3c727f01', {
-      cluster: 'ap1',
-      forceTLS: true,
-    });
-    var channel = pusher.subscribe('COMMENT_CHANNEL');
     channel.bind(
       `comment_${this.props.match_id}`,
       function(data) {

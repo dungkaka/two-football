@@ -5,7 +5,7 @@ import BetYellowCard from './BetYellowCard';
 import { getBetStatus, updateBetStatus } from '../../../actions/bet_status';
 import { connect } from 'react-redux';
 import './match-bet.css';
-import { Icon, Row } from 'antd';
+import { Icon } from 'antd';
 
 class BetBoard extends Component {
   constructor(props) {
@@ -30,6 +30,7 @@ class BetBoard extends Component {
       match_id,
       match_status,
       bet_status,
+      user,
       updateBetStatus,
     } = this.props;
     const betFirstHalf = bet_status.byId['1'];
@@ -56,6 +57,7 @@ class BetBoard extends Component {
               updateBetStatus={updateBetStatus}
               match_status={match_status}
               match_id={match_id}
+              user_id={user.user.user_id}
             />
             <BetFullTime
               home={home}
@@ -83,6 +85,7 @@ class BetBoard extends Component {
 
 const mapStateToProps = (state) => ({
   bet_status: state.bet_status,
+  user: state.user,
 });
 
 const mapDispatchToProps = {
