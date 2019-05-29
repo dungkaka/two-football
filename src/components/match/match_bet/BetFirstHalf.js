@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './match-bet.css';
 import { Button, InputNumber, Row, Col, Modal } from 'antd';
 
-const confirm = Modal.confirm;
-
 class BetFirstHalf extends Component {
   constructor(props) {
     super(props);
@@ -83,7 +81,11 @@ class BetFirstHalf extends Component {
     });
   };
 
-  handleCancel = () => this.hideModal();
+  handleCancel = () => {
+    this.setState({
+      visible: false,
+    });
+  };
 
   onHomeChange = (event) => {
     this.setState({

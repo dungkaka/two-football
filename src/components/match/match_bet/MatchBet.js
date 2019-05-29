@@ -29,6 +29,7 @@ class MatchBet extends Component {
               home={this.props.location.state.match.match_hometeam_name}
               away={this.props.location.state.match.match_awayteam_name}
               match_status={this.props.location.state.match.match_status}
+              yellow_card={this.props.location.state.match.cards}
             />
             <UserComment match_id={this.props.location.state.match.match_id} />
             <ListComment match_id={this.props.location.state.match.match_id} />

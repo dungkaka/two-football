@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import './match-bet.css';
 import { Button, InputNumber, Row, Col, Modal } from 'antd';
 
-const confirm = Modal.confirm;
-
 class BetFullTime extends Component {
   constructor(props) {
     super(props);
     this.state = {
       home_score: '0',
       away_score: '0',
-      bet_amount: '100',
+      bet_amount: 100,
       visible: false,
+      pre_visible: false,
       confirmLoading: false,
       disableBet: false,
+      bet_error: null,
     };
   }
 
@@ -32,12 +32,15 @@ class BetFullTime extends Component {
         home_score: home_score,
         away_score: away_score,
         bet_amount: bet_amount,
+        disableBet: true,
       };
     } else {
       const loading = nextProps.loadingModal;
+      const errorModal = nextProps.errorModal;
       return {
         ...prevState,
         confirmLoading: loading,
+        bet_error: errorModal,
         // disableBet:
         //   nextProps.match_status === '' && nextProps.match_status === 'FT' ? false : true,
       };
@@ -47,26 +50,38 @@ class BetFullTime extends Component {
   showModal = () => {
     this.setState({
       visible: true,
+      pre_visible: false,
     });
   };
 
   handleOk = async () => {
-    await this.props.updateBetStatus({
-      bet_type: 2,
-      bet_amount: this.state.bet_amount,
-      bet_content: `${this.state.home_score}-${this.state.away_score}`,
-    });
-    this.hideModal();
+    await this.props.updateBetStatus(
+      {
+        bet_type: 2,
+        bet_amount: this.state.bet_amount,
+        bet_content: `${this.state.home_score}-${this.state.away_score}`,
+      },
+      this.props.match_id,
+      this.props.user_id
+    );
+
+    if (this.state.bet_error == null) {
+      this.hideModal();
+    } else {
+      this.setState({
+        pre_visible: true,
+      });
+    }
   };
 
   hideModal = () => {
     this.setState({
       visible: false,
+      pre_visible: true,
     });
   };
 
   handleCancel = () => {
-    console.log('Clicked cancel button');
     this.setState({
       visible: false,
     });
@@ -173,8 +188,22 @@ class BetFullTime extends Component {
           centered
         >
           <div>
-            <p> ARE YOU SURE YOUR BET </p>
-            <p> content_modal</p>
+            <div style={{ margin: 'auto' }}>
+              <p> Bet type: First Half</p>
+              <p> Bet Amount: {this.state.bet_amount} </p>
+              <p style={{ fontWeight: 'bolder', color: '#f13e47' }}>
+                {' '}
+                {home}: {this.state.home_score}
+              </p>
+              <p style={{ fontWeight: 'bolder', color: 'rgb(57, 167, 219)' }}>
+                {' '}
+                {away}: {this.state.away_score}{' '}
+              </p>
+
+              {this.state.bet_error && this.state.pre_visible && (
+                <p> ${this.state.bet_error.message} </p>
+              )}
+            </div>
           </div>
         </Modal>
       </div>

@@ -68,6 +68,7 @@ class BetBoard extends Component {
               updateBetStatus={updateBetStatus}
               match_status={match_status}
               match_id={match_id}
+              user_id={user.user.user_id}
             />
             <BetYellowCard
               loadingModal={bet_status.loading}
@@ -75,6 +76,7 @@ class BetBoard extends Component {
               updateBetStatus={updateBetStatus}
               match_status={match_status}
               match_id={match_id}
+              user_id={user.user.user_id}
             />
           </div>
         )}

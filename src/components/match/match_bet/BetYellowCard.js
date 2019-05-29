@@ -2,17 +2,16 @@ import React, { Component } from 'react';
 import './match-bet.css';
 import { Button, InputNumber, Row, Col, Modal } from 'antd';
 
-const confirm = Modal.confirm;
-
 class BetYellowCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
       yellow_card: '0',
-      bet_amount: '100',
+      bet_amount: 100,
       visible: false,
       confirmLoading: false,
       disableBet: false,
+      bet_error: null,
     };
   }
 
@@ -28,12 +27,15 @@ class BetYellowCard extends Component {
         ...prevState,
         bet_amount: bet_amount,
         yellow_card: yellow_card,
+        disableBet: true,
       };
     } else {
       const loading = nextProps.loadingModal;
+      const errorModal = nextProps.errorModal;
       return {
         ...prevState,
         confirmLoading: loading,
+        bet_error: errorModal,
         // disableBet:
         //   nextProps.match_status === '' && nextProps.match_status === 'FT' ? false : true,
       };
@@ -47,11 +49,15 @@ class BetYellowCard extends Component {
   };
 
   handleOk = async () => {
-    await this.props.updateBetStatus({
-      bet_type: 3,
-      bet_amount: this.state.bet_amount,
-      bet_content: `${this.state.yellow_card}`,
-    });
+    await this.props.updateBetStatus(
+      {
+        bet_type: 3,
+        bet_amount: this.state.bet_amount,
+        bet_content: `${this.state.yellow_card}`,
+      },
+      this.props.match_id,
+      this.props.user_id
+    );
     this.hideModal();
   };
 
@@ -154,8 +160,18 @@ class BetYellowCard extends Component {
           centered
         >
           <div>
-            <p> ARE YOU SURE YOUR BET </p>
-            <p> content_modal</p>
+            <div style={{ margin: 'auto' }}>
+              <p> Bet type: First Half</p>
+              <p> Bet Amount: {this.state.bet_amount} </p>
+              <p style={{ fontWeight: 'bolder', color: '#f13e47' }}>
+                {' '}
+                Yellow Card: {this.state.yellow_card}
+              </p>
+
+              {this.state.bet_error && this.state.pre_visible && (
+                <p> ${this.state.bet_error.message} </p>
+              )}
+            </div>
           </div>
         </Modal>
       </div>
